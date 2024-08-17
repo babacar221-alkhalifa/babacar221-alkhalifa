@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon CV - [Ton Nom]</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #2d89e5;
+            color: white;
+            padding: 40px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 3em;
+            font-weight: bold;
+        }
+
+        header p {
+            font-size: 1.2em;
+            margin-top: 10px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+
+        h2 {
+            color: #2d89e5;
+            margin-bottom: 10px;
+        }
+
+        .experience,
+        .skills {
+            background: white;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .experience-item {
+            margin-bottom: 20px;
+        }
+
+        .experience-item h3 {
+            margin: 0;
+            color: #333;
+            font-size: 1.4em;
+        }
+
+        .experience-item span {
+            color: #888;
+            font-size: 0.9em;
+        }
+
+        .skills ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .skills ul li {
+            background-color: #2d89e5;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 20px;
+            margin: 5px;
+            font-size: 0.9em;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #2d89e5;
+            color: white;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>[Ton Nom]</h1>
+        <p>Développeur Web | Passionné par la technologie | Créateur de solutions modernes</p>
+    </header>
+
+    <div class="container">
+
+        <section class="experience">
+            <h2>Expériences professionnelles</h2>
+            <div class="experience-item">
+                <h3>Poste 1 - Nom de l'entreprise</h3>
+                <span>Janvier 2020 - Présent</span>
+                <p>Description de ton rôle, des projets réalisés et des responsabilités majeures.</p>
+            </div>
+            <div class="experience-item">
+                <h3>Poste 2 - Nom de l'entreprise</h3>
+                <span>Juin 2018 - Décembre 2019</span>
+                <p>Description de ton rôle, des projets réalisés et des responsabilités majeures.</p>
+            </div>
+            <!-- Ajoute plus d'expériences si nécessaire -->
+        </section>
+
+        <section class="skills">
+            <h2>Compétences techniques</h2>
+            <ul>
+                <li>HTML/CSS</li>
+                <li>JavaScript</li>
+                <li>Python</li>
+                <li>React</li>
+                <li>Node.js</li>
+                <li>SQL</li>
+                <!-- Ajoute plus de compétences ici -->
+            </ul>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>Retrouvez-moi sur <a href="https://www.linkedin.com">LinkedIn</a></p>
+    </footer>
+
+</body>
+
+</html>
